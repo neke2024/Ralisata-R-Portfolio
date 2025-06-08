@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import Header from "./parts/header.vue"
-import Hero from "./parts/hero.vue"
+import Hero from "./parts/hero.vue"; import AboutMe from "./parts/aboutMe.vue";
 // import Footer from "./parts/footer.vue"
 
 // État global de l'application
@@ -51,13 +51,12 @@ onMounted(() => {
           <!-- Section pour du contenu additionnel -->
           <section class="content-section">
             <slot name="additional-content">
-              <!-- Contenu par défaut ou slot pour d'autres composants -->
+              <AboutMe />
             </slot>
           </section>
         </main>
   
         <footer class="app-footer">
-          <Footer />
         </footer>
       </div>
     </Transition>

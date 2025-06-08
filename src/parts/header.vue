@@ -9,7 +9,7 @@
                 <nav class="desktop-nav">
                     <ul>
                         <li><a href="#" class="nav-link">Begin</a></li>
-                        <li><a href="#" class="nav-link">About Me</a></li>
+                        <li><a href="#AboutMe" class="nav-link">About Me</a></li>
                         <li><a href="#" class="nav-link">Contact-Me</a></li>
                     </ul>
                     <button type="button" class="cv-btn">
@@ -32,7 +32,7 @@
             <div class="mobile-menu-content" @click.stop>
                 <ul>
                     <li><a href="#" class="nav-link" @click="closeMobileMenu">Begin</a></li>
-                    <li><a href="#" class="nav-link" @click="closeMobileMenu">About Me</a></li>
+                    <li><a href="#AboutMe" class="nav-link" @click="closeMobileMenu">About Me</a></li>
                     <li><a href="#" class="nav-link" @click="closeMobileMenu">Contact-Me</a></li>
                 </ul>
                 <button type="button" class="cv-btn" @click="closeMobileMenu">
